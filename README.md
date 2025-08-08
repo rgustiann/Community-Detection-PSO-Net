@@ -1,57 +1,57 @@
-# 🧠 Deteksi Komunitas Menggunakan Algoritma PSO-Net
+# 🧠 Community Detection Using the PSO-Net Algorithm
 
-Sistem berbasis Python untuk mendeteksi komunitas dalam jaringan menggunakan algoritma **PSO-Net** (Particle Swarm Optimization for Community Detection). Dilengkapi dengan antarmuka visual interaktif menggunakan **Streamlit** serta fitur penyimpanan hasil deteksi.
+A Python-based system for detecting communities in a network using the **PSO-Net** algorithm (Particle Swarm Optimization for Community Detection). Equipped with an interactive visual interface powered by **Streamlit** and the ability to save detection results.
 
 ---
 
-## ✨ Fitur
+## ✨ Features
 
-- 🔍 Deteksi komunitas dari dataset jaringan (graph) berbasis algoritma PSO-Net
-- 📊 Visualisasi graf komunitas secara interaktif
-- 💾 Simpan hasil deteksi dalam format yang dapat diekspor
+- 🔍 Community detection from network datasets (graph) using the PSO-Net algorithm
+- 📊 Interactive graph visualization
+- 💾 Save detection results in exportable formats
 - 🤝 Open for contributions!
 
 ---
 
-## 📂 Format Dataset
+## 📂 Dataset Format
 
-Pastikan dataset Anda dalam format **`.tsv` (Tab Separated Values)** dengan struktur kolom sebagai berikut:
+Ensure your dataset is in **`.tsv` (Tab Separated Values)** format with the following column structure:
 ...
 ```
 source<TAB>target
 A<TAB>B
 B<TAB>C
 ```
-> **Catatan:** Header tidak diwajibkan.
+> **Note:** A header row is optional.
 
 ---
 
-## 🚀 Cara Menjalankan
+## 🚀 How to Run
 
-1. **Clone repositori ini:**
+1. **Clone this repository:**
 
 ```bash
 git clone https://github.com/rgustiann/Community-Detection-PSO-Net.git
 cd Community-Detection-PSO-Net
 ````
 
-2. **Install dependensi:**
+2. **Install dependencies:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Jalankan aplikasi Streamlit:**
+3. **Run the Streamlit application:**
 
 ```bash
 streamlit run main.py
 ```
 
-4. **Upload file `.tsv`** dan mulai proses deteksi komunitas.
+4. **Upload a .tsv file and start the community detection process.
 
 ---
 
-## 🛠 Teknologi yang Digunakan
+## 🛠 Technologies Used
 
 * 🐍 Python 3
 * 🎈 Streamlit
@@ -61,19 +61,17 @@ streamlit run main.py
 
 ---
 
-## 📌 Catatan Tambahan
-
-* Dataset harus berupa file `.tsv` dengan kolom **source** dan **target** (tanpa header tidak masalah).
-* Direkomendasikan untuk menggunakan dataset dengan ukuran kecil hingga menengah untuk performa optimal.
-* Tersedia visualisasi jaringan interaktif dan hasil akhir dapat disimpan.
-
+## 📌  Additional Notes
+* The dataset must be a .tsv file with source and target columns (header optional).
+* Small to medium-sized datasets are recommended for optimal performance.
+* Provides interactive network visualization and the ability to save final results.
 ---
 
-## 💡 Kontribusi
+## 💡 Contribution
 
-Proyek ini bersifat **open source** dan **terbuka untuk kontribusi**!
+This project is **open source** and **open for contributions!**
 
-Silakan fork, pull request, atau diskusi melalui [Issues](https://github.com/rgustiann/Community-Detection-PSO-Net/issues).
+Feel free to fork, submit a pull request, or start a discussion via [Issues](https://github.com/rgustiann/Community-Detection-PSO-Net/issues).
 
 ---
 
