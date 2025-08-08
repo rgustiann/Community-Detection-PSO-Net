@@ -47,7 +47,7 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
-4. **Upload a .tsv file and start the community detection process.
+4. **Upload a .tsv file and start the community detection process.**
 
 ---
 
